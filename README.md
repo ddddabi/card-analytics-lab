@@ -38,7 +38,7 @@
 
 > **“피사카드 기획팀 직원 3명에게 팀장이 신용카드 기획 프로젝트를 줬다.”**
 
-<img width="800" height="800" alt="Image" src="https://github.com/user-attachments/assets/3d7a83a7-4f52-4121-942b-32f978560f64" />
+<img width="700" height="700" alt="시나리오사진" src="https://github.com/user-attachments/assets/0024c413-f6e7-42fc-8be7-9b7c983e70b3" />
 
 기획팀은 단순한 시장 벤치마크가 아닌, **기존 소비 데이터를 기반으로 실질적인 카드 상품을 기획**하기로 결심한다.  
 우리는 데이터를 통해 사용자의 실제 소비 패턴을 파악하고, 이를 기반으로 **각 타겟별 소비 성향에 맞는 혜택 구조를 설계**한다.
@@ -54,7 +54,7 @@
   <img src="https://img.shields.io/badge/Kibana-005571?&style=flat&logo=Kibana">
 </div>
 <br>
-<img width="700" height="700" alt="다운로드" src="https://github.com/user-attachments/assets/58148a95-5ae0-42e9-b61e-df0c3791a911" />
+<img width="700" height="700" alt="아키텍쳐" src="https://github.com/user-attachments/assets/58148a95-5ae0-42e9-b61e-df0c3791a911" />
 
 
 <br>
