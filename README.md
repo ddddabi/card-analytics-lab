@@ -38,7 +38,7 @@
 
 > **“피사카드 기획팀 직원 3명에게 팀장이 신용카드 기획 프로젝트를 줬다.”**
 
-<img width="700" height="700" alt="시나리오사진" src="https://github.com/user-attachments/assets/0024c413-f6e7-42fc-8be7-9b7c983e70b3" />
+<img width="700" height="700" src="https://github.com/user-attachments/assets/0024c413-f6e7-42fc-8be7-9b7c983e70b3" />
 
 기획팀은 단순한 시장 벤치마크가 아닌, **기존 소비 데이터를 기반으로 실질적인 카드 상품을 기획**하기로 결심한다.  
 우리는 데이터를 통해 사용자의 실제 소비 패턴을 파악하고, 이를 기반으로 **각 타겟별 소비 성향에 맞는 혜택 구조를 설계**한다.
@@ -54,7 +54,8 @@
   <img src="https://img.shields.io/badge/Kibana-005571?&style=flat&logo=Kibana">
 </div>
 <br>
-<img width="700" height="700" alt="아키텍쳐" src="https://github.com/user-attachments/assets/58148a95-5ae0-42e9-b61e-df0c3791a911" />
+<img width="700" height="700" src="https://github.com/user-attachments/assets/257b769d-b1bd-4983-8649-58b5934c6f5f" />
+
 
 
 <br>
@@ -79,7 +80,7 @@
 <table>
   <tr>
     <td rowspan="6">
-      <img src="https://github.com/user-attachments/assets/e8984fcb-957b-430b-8fae-90cfc2e421c2" width="250" height="380"/>
+      <img width="250" height="250" alt="ChatGPT Image 2025년 7월 17일 오후 06_37_56" src="https://github.com/user-attachments/assets/b8bc8d53-5e59-43c0-aa26-95bd416f5156" />
     </td>
     <td><strong>💳 카드명</strong>: 오늘먹카드</td>
   </tr>
@@ -120,19 +121,22 @@
 1. 대학생과 사회초년생은 신용카드와 체크카드 중 어떤 카드를 많이 쓸까?
     <details>
     <summary>📊 대학생과 사회초년생의 카드 유형별 시각화</summary>
-    <img width="1865" height="357" alt="Image" src="https://github.com/user-attachments/assets/cebad19c-0b03-45b6-9b46-6be9abf45bcd" />
+      <img width="1865" height="357" alt="image" src="https://github.com/user-attachments/assets/12f920fe-35b9-4515-8139-2779d2405b58" />
+
     </details>
     
 2. 대학생과 사회초년생들의 평균 이용금액 기준 적정 전월실적은 얼마일까?
     <details>
       <summary>📊 이용금액 평균 시각화</summary>
-      <img width="1585" height="346" alt="image" src="https://github.com/user-attachments/assets/8872b4f1-7069-4ae2-ab30-f90e16b6cbcf" />
+      <img width="1585" height="351" alt="image" src="https://github.com/user-attachments/assets/e8f08c8f-7e22-4f0d-b018-681105763853" />
+
     </details>
 
 3. 대학생과 사회초년생들은 어떤 업종에서 가장 많이 결제할까?
     <details>
       <summary>📊 업종별 이용 비중</summary>
-      <img width="909" height="664" alt="image" src="https://github.com/user-attachments/assets/ca8b7dfa-f51e-4359-9a58-f08416f22a07" />
+      <img width="913" height="665" alt="image" src="https://github.com/user-attachments/assets/780f65a2-4a75-4e43-971c-acb40b872c8a" />
+
     </details>
 
 #### 💳 카드 혜택
@@ -152,7 +156,7 @@
 <table>
   <tr>
     <td rowspan="6">
-      <img src="https://github.com/user-attachments/assets/39b8ec67-f765-43ac-a1e9-603eb6598359" width="250" height="380"/>
+      <img width="250" height="250" src="https://github.com/user-attachments/assets/3ebcca41-6b3b-470d-a114-4d60f307d5d9" />
     </td>
     <td><strong>💳 카드명</strong>: 이제 쉼 카드</td>
   </tr>
@@ -198,26 +202,28 @@
 1. 카드 회원 중 은퇴자의 비율은 얼마나 될까? 
     <details>
     <summary>📊총 회원 중 은퇴자 비율 </summary>
-    <img width="1002" height="487" alt="회원 중 은퇴자 비율" src="https://github.com/user-attachments/assets/f893c4b2-31e0-425f-bc42-2407b1b3ff1a" />
+      <img width="1002" height="487" alt="회원 중 은퇴자 비율" src="https://github.com/user-attachments/assets/b662d32d-ad20-4dc1-aced-d6f78e6617fc" />
     </details>
 
 
 2.  은퇴자의 주 연령대는 어떻게 될까?
     <details>
     <summary>📊연령별 은퇴자 비율 </summary>
-    <img width="1000" height="491" alt="은퇴자 주 연령대" src="https://github.com/user-attachments/assets/cb8d2dbf-5487-470d-bb4f-f0028e8f6928" />
+      <img width="1000" height="491" alt="은퇴자 주 연령대" src="https://github.com/user-attachments/assets/fd620a61-0ea5-4dd9-871a-edf6cd57ba29" />
+
     </details>
 
 3.  은퇴자인 회원들의 카드 총 이용금액 평균은 얼마일까?
     <details>
     <summary>📊은퇴자 총 이용금액 </summary>
-    <img width="1003" height="485" alt="은퇴자 총 카드 이용요금 평균" src="https://github.com/user-attachments/assets/a6051652-4fca-43bf-a07d-cc39ff30c5c9" />
+    ><img width="1003" height="485" alt="은퇴자 총 카드 이용요금 평균" src="https://github.com/user-attachments/assets/e23dfaa9-1a33-4285-9418-77ba0712967e" />
+
     </details>
 
 4.  은퇴자 중 여행/레져/문화 분야에 소비하는 소비금액은 얼마일까?
     <details>
     <summary>📊은퇴자 중 여행/레져/문화 분야 소비금액 </summary>
-    <img width="1034" height="575" alt="은퇴자 여행 소비 비율" src="https://github.com/user-attachments/assets/fb300f80-2222-4ca8-8242-5c383d4f4354" />
+    <img width="1034" height="575" alt="은퇴자 여행 소비 비율" src="https://github.com/user-attachments/assets/b3e56337-810e-48ad-8925-eaacffcc8c8d" />
     </details>
 
 #### 🎁 카드 기본 혜택
