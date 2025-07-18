@@ -454,7 +454,7 @@
 
 ### 🎯 파이프라인 구축 시도
 
-#### ⚙️시도 1: 컬럼 필터링 및 전처리
+#### ⚙️문제점 1: 컬럼 필터링 및 전처리
 
 <img width="460" height="87" alt="Image" src="https://github.com/user-attachments/assets/86872547-ae15-4a92-ab23-200a984b6ec6" />
 
@@ -465,19 +465,24 @@
 필드를 제거했음에도 불구하고, Logstash가 자동으로 생성하는 host, agent, @timestamp 등의 메타 필드가 포함되면서,
  필드 구조가 오히려 더 복잡해지고 JSON 구조가 커지게 되어 데이터 용량이 증가한 것으로 판단됩니다.
  
-#### ⚙️시도 2: CSV 파일의 message 필드 분할 시도
+#### ⚙️문제점 2: CSV 파일의 message 필드 분할 시도
 
 <img width="914" height="399" alt="Image" src="https://github.com/user-attachments/assets/b6c26106-255a-4816-8e86-d4d33ac69d8a" />
 
 Logstash는 기본적으로 CSV 한 줄 전체를 message 필드로 저장합니다. 이에 따라, 해당 필드를 , 기준으로 분할(split) 하여 개별 필드로 나누는 방식으로 시도하였습니다. 이 방식으로 message 필드가 분할되는 것은 확인하였으나, Elasticsearch 인덱싱 시 각 필드가 정상적으로 매핑되지 않는 문제점이 발견되었습니다.
 
-#### ⚙️시도 3: message 필드 정상 생성 확인
+#### ⚙️문제점 3: message 필드 정상 생성 확인
 
 <img width="258" height="179" alt="Image" src="https://github.com/user-attachments/assets/732b51cb-c330-4e72-8c09-c739e8795e54" />
 
 split과 add_field를 통해 필드가 생성된 것처럼 보였지만, 실제 구조는 내부적으로 문자열 배열(String Array) 형태로 처리되고 있었습니다. 
 
 또한 message 필드로 인해 용량이 커지는 현상이 발생하였습니다.
+
+#### 📌 원인 분석
+
+필드를 제거했음에도 불구하고, Logstash가 자동으로 생성하는 host, agent, @timestamp 등의 메타 필드가 포함되면서,
+ 필드 구조가 오히려 더 복잡해지고 JSON 구조가 커지게 되어 데이터 용량이 증가한 것으로 판단됩니다.
  
 #### 🔧 해결 방향
 
