@@ -459,11 +459,6 @@
 <img width="460" height="87" alt="Image" src="https://github.com/user-attachments/assets/86872547-ae15-4a92-ab23-200a984b6ec6" />
 
 원본 CSV 파일에는 약 55개 이상의 필드가 존재합니다. 분석 및 시각화 목적에 부합하지 않는 약 40개 컬럼을 filter 단계에서 제거하도록 구성하였습니다. 그러나 필터링 이후, Logstash 파이프라인 처리 데이터 용량이 오히려 약 75% 증가하는 현상이 발생하였습니다.
-
-**📌 원인 분석**
-
-필드를 제거했음에도 불구하고, Logstash가 자동으로 생성하는 host, agent, @timestamp 등의 메타 필드가 포함되면서,
- 필드 구조가 오히려 더 복잡해지고 JSON 구조가 커지게 되어 데이터 용량이 증가한 것으로 판단됩니다.
  
 #### ⚙️문제점 2: CSV 파일의 message 필드 분할 시도
 
