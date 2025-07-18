@@ -216,7 +216,7 @@
 3.  은퇴자인 회원들의 카드 총 이용금액 평균은 얼마일까?
     <details>
     <summary>📊은퇴자 총 이용금액 </summary>
-    ><img width="1003" height="485" alt="은퇴자 총 카드 이용요금 평균" src="https://github.com/user-attachments/assets/e23dfaa9-1a33-4285-9418-77ba0712967e" />
+    <img width="1003" height="485" alt="은퇴자 총 카드 이용요금 평균" src="https://github.com/user-attachments/assets/e23dfaa9-1a33-4285-9418-77ba0712967e" />
 
     </details>
 
@@ -456,7 +456,7 @@
 
 #### ⚙️시도 1: 컬럼 필터링 및 전처리
 
-<img width="478" height="102" alt="Image" src="https://github.com/user-attachments/assets/423b6a5c-c0f6-49a4-8628-6e80885fae13" />
+<img width="460" height="87" alt="Image" src="https://github.com/user-attachments/assets/86872547-ae15-4a92-ab23-200a984b6ec6" />
 
 원본 CSV 파일에는 약 55개 이상의 필드가 존재합니다. 분석 및 시각화 목적에 부합하지 않는 약 40개 컬럼을 filter 단계에서 제거하도록 구성하였습니다. 그러나 필터링 이후, Logstash 파이프라인 처리 데이터 용량이 오히려 약 75% 증가하는 현상이 발생하였습니다.
 
@@ -473,7 +473,7 @@ Logstash는 기본적으로 CSV 한 줄 전체를 message 필드로 저장합니
 
 #### ⚙️시도 3: message 필드 정상 생성 확인
 
-<img width="404" height="157" alt="Image" src="https://github.com/user-attachments/assets/ea1da8b5-7102-451f-bab7-10896d403672" />
+<img width="258" height="179" alt="Image" src="https://github.com/user-attachments/assets/732b51cb-c330-4e72-8c09-c739e8795e54" />
 
 split과 add_field를 통해 필드가 생성된 것처럼 보였지만, 실제 구조는 내부적으로 문자열 배열(String Array) 형태로 처리되고 있었습니다. 
 
