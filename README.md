@@ -128,6 +128,7 @@
     <details>
       <summary>📊 이용금액 평균 시각화</summary>
       <img width="1583" height="343" alt="image" src="https://github.com/user-attachments/assets/81e7bad3-02da-43c3-9bc6-4bba5dc20767" />
+      <p>단위: "천원(만원단위 절사)"</p>
     </details>
 
 3. 대학생과 사회초년생들은 어떤 업종에서 가장 많이 결제할까?
@@ -214,7 +215,7 @@
     <details>
     <summary>📊은퇴자 총 이용금액 </summary>
     <img width="1003" height="485" alt="은퇴자 총 카드 이용요금 평균" src="https://github.com/user-attachments/assets/e23dfaa9-1a33-4285-9418-77ba0712967e" />
-
+    <p>단위: "천원(만원단위 절사)"</p>
     </details>
 
 4.  은퇴자 중 여행/레져/문화 분야에 소비하는 소비금액은 얼마일까?
@@ -264,7 +265,8 @@
           <img width="553" height="485" alt="Image" src="https://github.com/user-attachments/assets/76afa6c2-8781-4b05-8aa3-909680bdebb6" />
         </td>
         <td align="center">
-          <img width="535" height="233" alt="Image" src="https://github.com/user-attachments/assets/04b5068d-1bc7-4f2c-8bfd-fc1524c4a4a6" /
+          <img width="535" height="233" alt="Image" src="https://github.com/user-attachments/assets/04b5068d-1bc7-4f2c-8bfd-fc1524c4a4a6" />
+          <p>단위: "천원(만원단위 절사)"</p>
         </td>
       </tr>
     </table>
