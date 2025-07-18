@@ -121,22 +121,19 @@
 1. 대학생과 사회초년생은 신용카드와 체크카드 중 어떤 카드를 많이 쓸까?
     <details>
     <summary>📊 대학생과 사회초년생의 카드 유형별 시각화</summary>
-      <img width="1865" height="357" alt="image" src="https://github.com/user-attachments/assets/12f920fe-35b9-4515-8139-2779d2405b58" />
-
+    <img width="1871" height="353" alt="image" src="https://github.com/user-attachments/assets/29b15b07-1e77-4f37-b04e-35ec5ee3f165" />
     </details>
     
 2. 대학생과 사회초년생들의 평균 이용금액 기준 적정 전월실적은 얼마일까?
     <details>
       <summary>📊 이용금액 평균 시각화</summary>
-      <img width="1585" height="351" alt="image" src="https://github.com/user-attachments/assets/e8f08c8f-7e22-4f0d-b018-681105763853" />
-
+      <img width="1583" height="343" alt="image" src="https://github.com/user-attachments/assets/81e7bad3-02da-43c3-9bc6-4bba5dc20767" />
     </details>
 
 3. 대학생과 사회초년생들은 어떤 업종에서 가장 많이 결제할까?
     <details>
       <summary>📊 업종별 이용 비중</summary>
-      <img width="913" height="665" alt="image" src="https://github.com/user-attachments/assets/780f65a2-4a75-4e43-971c-acb40b872c8a" />
-
+       <img width="896" height="659" alt="image" src="https://github.com/user-attachments/assets/3cf79b8a-774c-4b79-84f7-32f574999541" />
     </details>
 
 #### 💳 카드 혜택
